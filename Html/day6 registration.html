@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up for Facebook</title>
+    <link
+      rel="shortcut icon"
+      href="../Assets/images/facebook-1-svgrepo-com.png"
+      type="image/x-icon"
+    />
+    <style>
+      form {
+        /* border:o,310,310 310px solid #f1f1f1; */
+        border-top: 10px solid #f1f1f1;
+        border-left: 310px solid#f1f1f1;
+        border-right: 310px solid #f1f1f1;
+        border-bottom: 10px solid #f1f1f1;
+      }
+      .container {
+        padding: 16px;
+      }
+      /* input[type=radio]{
+        
+      } */
+        
+      
+      input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      h1 {
+        display: block;
+        font-size: 2em;
+        margin-block-start: auto;
+        margin-block-end: auto;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        unicode-bidi: isolate;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      style="
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+      "
+      width="200"
+      height="200px"
+      src="../Assets/images/Facebook-Logo-2019.png"
+      alt="Facebook"
+    />
+    <form action="">
+      <div class="container">
+        <label for="login Page"><h1>Create a new account</h1></label
+        ><br /><br />
+        <input
+          type="text"
+          name="Firstname"
+          id="Firstname"
+          placeholder="Firstname"
+          required
+        />
+        <input
+          type="text"
+          name="Secondname"
+          id="Secondname"
+          placeholder="Surname"
+        />
+        <br /><br />
+
+        <label for="email"><strong>Email Address:</strong></label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="abcd@gmail.com"
+        />
+        <br /><br />
+
+        <label for="phone"><strong>Mobile Number:</strong></label>
+        <input
+          type="tel"
+          name="mobile"
+          id="mobile"
+          pattern="[0-1]{10}"
+          placeholder="9876543210"
+        /><br /><br />
+        
+
+        
+        <label for="DOB"><strong>Date of Birth:</strong></label>
+        <input type="date" name="DOB" id="DOB" /><br /><br />
+    <!-- </div>
+
+    <div class="other"> -->
+        <span class="gender" style="display: flex;">
+            <span>
+                <label for="Male">Male</label>
+                <input type="radio" name="male" id="Male">
+            </span>
+            <span>
+                <label for="Female">Female</label>
+                <input type="radio" name="female" id="Female">
+            </span>
+            <span>
+                <label for="Other">Other</label>
+                <input type="radio" name="other" id="Other">
+            </span>
+        </span>
+    
+
+        <label for="terms and conditions"><strong>Terms and Conditions:</strong></label
+        ><br />
+        <div class="checkbox">
+            <input type="checkbox" value="terms&cond" name="terms" id="terms" style="padding-left: 16px;padding-top: 10px;padding-bottom: 10px;padding-right: 0%;" />
+            <label for="terms">I agree all the Terms and Conditions <br /></label>
+        </div>
+        <div class="checkbox">
+        <input type="checkbox"value="conditions"name="conditions"id="conditions"/>
+          <label for="conditions">I agree to all the Conditions</label> <br /><br />
+        </div>
+        <input type="submit" name="register" id="register" value="register" />
+      </div>
+    </form>
+  </body>
+</html>

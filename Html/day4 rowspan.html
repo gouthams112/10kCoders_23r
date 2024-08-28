@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table, td, th{
+      border: 1px solid black;
+      border-collapse:collapse ;
+    }
+  </style>
+</head>
+<body>
+  <h1>rowspan</h1>
+  <table>
+    <!-- <tr>
+      <th>data1</th>
+      <th>data2</th>
+      <th>data3</th>
+      <th>data4</th>
+      <th>data5</th>
+    </tr> -->
+    <tr >
+      <td rowspan="2">data1</td>
+      <td>data2</td>
+      <td rowspan="5">data3</td>
+      <td>data4</td>
+      <td>data5</td>
+    </tr>
+   
+    <tr>
+      <td rowspan="2">data1</td>
+      <td >data2</td>
+      <td>data3</td>
+      <td>data4</td>
+      <td>data5</td>
+    </tr>
+    <tr>
+      <td>data1</td>
+      <td>data2</td>
+      <td rowspan="">data3</td>
+      <td>data4</td>
+      <td>data5</td>
+    </tr>
+    <tr>
+      <td>data1</td>
+      <td>data2</td>
+      <td>data3</td>
+      <td rowspan="2">data4</td>
+      <td>data5</td>
+    </tr>
+    <tr>
+      <td>data1</td>
+      <td>data2</td>
+      <td>data3</td>
+      <td>data4</td>
+      <td>data5</td>
+    </tr>
+  </table>
+</body>
+</html>
